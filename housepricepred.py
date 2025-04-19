@@ -21,7 +21,7 @@ print(houseprice_df.describe())'
 '''
 #houseprice_df.head()
 houseprice_data_corr = houseprice_df.corr()
-#print(houseprice_data_corr)
+print(houseprice_data_corr)
 #plt.figure(figsize=(10,10))
 #sns.heatmap(houseprice_data_corr, cbar=True, square=True, fmt='.1f', annot=True, annot_kws={'size':8}, cmap='Blues')
 #plt.show()
